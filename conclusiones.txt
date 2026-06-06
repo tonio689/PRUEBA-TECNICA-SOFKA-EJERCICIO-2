@@ -1,0 +1,15 @@
+CONCLUSIONES Y HALLAZGOS
+
+1. Se automatizaron exitosamente las pruebas de los servicios Signup y Login de Demoblaze utilizando Karate Framework.
+
+2. Se implementó una estrategia de generación dinámica de usuarios mediante timestamps para evitar conflictos con datos previamente registrados y garantizar la repetibilidad de las pruebas.
+
+3. Se validó el comportamiento del servicio Signup tanto para la creación exitosa de usuarios como para el manejo de usuarios ya existentes.
+
+4. Se verificó el comportamiento del servicio Login para credenciales válidas e inválidas, identificando las respuestas generadas por la API para cada caso.
+
+5. Los reportes HTML generados automáticamente proporcionan trazabilidad completa de las solicitudes y respuestas intercambiadas con la API, permitiendo revisar la evidencia de ejecución sin necesidad de acceder a la consola.
+
+6. La solución desarrollada es reproducible, mantenible y fácilmente escalable para incorporar nuevos escenarios de prueba sobre los servicios expuestos por Demoblaze.
+
+7. Se identificó que la calidad de una prueba automatizada no depende únicamente de validar respuestas exitosas, sino también de comprobar escenarios negativos y comportamientos excepcionales del servicio.
